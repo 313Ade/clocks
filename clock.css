@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #031323;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#110101, #5af752);
+  clip-path: polygon(20% 10%, 40% 40%, 20% 75%);
+}
+
+.clock {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  height: 350px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  z-index: 100;
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.9);
+  display: flex;
+  text-align: center;
+  font-family: "Quicksand", "Helvetica";
+  font-weight: lighter;
+}
+
+.inside {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  height: 250px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+}
+
+#cal i{
+    width: 30px;
+    height: 30px;
+    color: #e6e6fa;
+}
+
+.content {
+  margin-top: 40px;
+  height: auto;
+  text-align: center;
+  width: auto;
+}
+
+.days {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.days span {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.text {
+  position: absolute;
+  margin: auto ;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 100px;
+  color: #e6e6fa;
+  font-size: 2.5rem;
+}
+
+#time {
+  font-size: 2rem;
+}
+
+#date {
+  margin-top: 100px;
+  margin-left: -100px;
+}
+
+span#day {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+span#month {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+
+span#year {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 105px;
+}
+
+#hours,
+#minutes,
+#seconds {
+  font-size: 1.5em;
+}
