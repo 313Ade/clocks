@@ -9,4 +9,9 @@ A preview of the digital clcok:
 ![Digital clock preview](https://github.com/theSlovak/clocks/blob/main/previews/digital.png) <br/>
 
 A preview of the analog clock. Looks crude.
-![Analog clock preview](https://github.com/theSlovak/clocks/blob/main/previews/analog-preview.png)
+![Analog clock preview](https://github.com/theSlovak/clocks/blob/main/previews/analog-preview.png) <br/>
+
+A preview of alarm clock. I don't know how to take user input in place of the calender input at the moment.<br>
+The alarm sound used is hosted on the web. Maybe in the future I will add a change sound feature <br/>
+
+![Alarm clock preview](https://github.com/theSlovak/clocks/blob/main/previews/alarm-preview.png)
