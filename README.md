@@ -8,4 +8,5 @@ The analog clock has styling. I may (or may not) add a fill effect for the clock
 A preview of the digital clcok: 
 ![Digital clock preview](https://github.com/theSlovak/clocks/blob/main/previews/digital.png) <br/>
 
-A preview of the analog clock. It's still has a crude look, I know.
+A preview of the analog clock. Looks crude.
+![Analog clock preview](https://github.com/theSlovak/clocks/blob/main/previews/analog-preview.png)
